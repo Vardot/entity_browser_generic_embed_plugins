@@ -7,3 +7,7 @@ Have a list of starter plugin modules to work with the
 * Entity Browser Generic Twitter Embed.
 * Entity Browser Generic Instagram Embed.
 
+Inspired by the work in [Lightning](https://www.drupal.org/project/lightning)
+ Drupal distribution and the
+ [Lighting Media](https://www.drupal.org/project/lightning_media) module.
+
