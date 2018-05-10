@@ -1,8 +1,8 @@
 {
-  "name": "vardot/entity_browser_generic_embed_modules",
-  "description": "Entity Browser Generic Embed modules",
+  "name": "vardot/entity_browser_generic_embed_plugins",
+  "description": "Entity Browser Generic Embed Plugins",
   "type": "drupal-module",
-  "homepage": "https://github.com/Vardot/entity_browser_generic_embed_modules",
+  "homepage": "https://github.com/Vardot/entity_browser_generic_embed_plugins",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "authors": [
@@ -13,8 +13,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/Vardot/entity_browser_generic_embed_modules",
-    "source": "https://github.com/Vardot/entity_browser_generic_embed_modules/issues"
+    "issues": "https://github.com/Vardot/entity_browser_generic_embed_plugins",
+    "source": "https://github.com/Vardot/entity_browser_generic_embed_plugins/issues"
   },
   "repositories": [
     {
