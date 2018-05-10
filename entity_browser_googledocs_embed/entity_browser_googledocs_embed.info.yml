@@ -1,0 +1,8 @@
+name: 'Entity Browser GoogleDocs Embed'
+core: 8.x
+type: module
+description: 'Entity Browser Generic GoogleDocs Embed'
+package: Media
+dependencies:
+  - entity_browser_generic_embed
+  - media_entity_googledocs

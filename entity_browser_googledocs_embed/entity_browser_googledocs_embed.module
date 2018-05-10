@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Support for instagram posts as media entities.
+ */
+
+use Drupal\entity_browser_generic_embed\OverrideHelper as Override;
+use Drupal\entity_browser_googledocs_embed\Plugin\media\Source\GoogleDocs;
+use Drupal\media_entity_googledocs\Plugin\Validation\Constraint;
+
+/**
+ * Implements hook_media_source_info_alter().
+ */
+function entity_browser_googledocs_embed_media_source_info_alter(array &$sources) {
+  $sources['googledocs']['input_match'] = [
+    'constraint' => 'GoogleDocsEmbedCode',
+    'field_types' => [
+      'string',
+      'string_long',
+    ],
+  ];
+  $sources['googledocs']['preview'] = TRUE;
+
+  Override::pluginClass($sources['googledocs'], GoogleDocs::class);
+}

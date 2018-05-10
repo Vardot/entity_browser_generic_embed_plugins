@@ -1,0 +1,12 @@
+langcode: und
+status: true
+dependencies:
+  module:
+    - media_entity_googledocs
+id: googledocs
+label: Google documents
+description: 'Google documents (spreadsheet, presentation, forms and document).'
+source: googledocs
+source_configuration:
+  source_field: embed_code
+field_map: {  }

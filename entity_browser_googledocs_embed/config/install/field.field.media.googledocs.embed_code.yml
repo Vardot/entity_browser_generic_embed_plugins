@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.embed_code
+    - media.type.googledocs
+id: media.googledocs.embed_code
+field_name: embed_code
+entity_type: media
+bundle: googledocs
+label: 'Embed post'
+description: 'Paste the google document embed code.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

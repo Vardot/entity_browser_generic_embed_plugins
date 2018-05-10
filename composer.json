@@ -27,7 +27,8 @@
     "drupal/entity_browser": "^2.0-alpha2",
     "drupal/media_entity_instagram": "^2.0-alpha1",
     "drupal/media_entity_twitter": "^2.0-alpha2",
-    "drupal/video_embed_field": "^2.0"
+    "drupal/video_embed_field": "^2.0",
+    "drupal/media_entity_googledocs": "^4.0"
   },
   "extra": {
     "branch-alias": {
